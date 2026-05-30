@@ -1,6 +1,6 @@
 import React from 'react'
 import "../NavbarComponent/NavbarComponent.css"
-import { FaBell, FaSearch, FaBars, FaEnvelope, FaChevronDown } from "react-icons/fa";
+import { FaBell, FaSearch, FaBars, FaEnvelope } from "react-icons/fa";
 
 function NavbarComponent({ toggleSidebar }) {
   return (
@@ -34,7 +34,6 @@ function NavbarComponent({ toggleSidebar }) {
             <p className="name">John Admin</p>
             <span className="role">Super Admin</span>
           </div>
-          <FaChevronDown className="dropdown-icon" />
         </div>
 
       </div>
