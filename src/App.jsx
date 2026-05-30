@@ -1,5 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Dashboard from "./Pages/Dashboard";
+import Layout from "./Layout/Layout";
 
 
 function App() {
@@ -7,7 +9,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<h1>Admin Dashboard</h1>} />
+          <Route path="/" element={<Layout><Dashboard /></Layout>} />    
         </Routes>
       </Router>
     </>

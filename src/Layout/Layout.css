@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+}
+
+.content {
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  background: #f8fafc;
+  transition: 0.3s;
+}
+
+/* Optional smoother UI */
+.main.expanded {
+  margin-left: 0;
+}
